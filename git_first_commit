@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir rjw_base
+cd rjw_base
+git init
+touch README
+git add README
+git commit -m 'First commit of rjw_base'
+git remote add origin git@github.com:rjwinslow/rjw_base.git
+git push origin master
